@@ -1,1 +1,75 @@
-Foo Placeholder
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <base href="http://foo.network/" />
+<title>The Foo Network</title>
+<script src="/Scripts/jquery-1.11.0.js"></script>
+<script src="/Scripts/jquery-1.11.1.js"></script>
+<script src="/Scripts/jquery-2.1.1.js"></script>
+<script src="/Scripts/jquery-2.1.3.js"></script>
+<script src="/Scripts/toastr.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="/Content/toastr.css"/>
+<script type="text/javascript">
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": true,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+<style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}</style>
+<style type="text/css">ul{margin:25px;}ul ul{list-style:square inside;margin:5px;}li{padding:3px 10px;margin-left:10px;}#mainbody{max-width:1000px;background:white;min-width:500px;margin:15px auto;min-height:100%;border-radius:15px;box-shadow:0 9px 0 0 white,0 -9px 0 0 white,12px 0 15px -4px rgba(31,73,125,0.8),-12px 0 15px -4px rgba(31,73,125,0.8);}html,body{background:#EEEEEE;height:100%;margin:0;padding:0;border:0 none;overflow-y:auto;font-family:"Lucida Console",Monaco,monospace;}.pageblock{width:90%;margin:10px auto;}.foologo{font-weight:bold;margin-right:8px;}.navigationheader{margin:2px 10px;padding:0 10px;text-align:left;font-size:large;}.sectionHeader{margin:15px;font-weight:bold;font-size:1.2em;}.noseeum{visibility:hidden;}.tagline{background:black;color:white;padding-top:5px;padding-bottom:1px;box-sizing:border-box;border:1px solid black;}a{text-decoration:none;}a:hover{text-decoration:underline;}</style>
+<style type="text/css">#splashwow{width:980px;height:410px;background-image:url(/html/foo/Content/AprilFoo.png);}</style>
+</head>
+<body>
+<div id="mainbody">
+<br/>
+<div class="navigationheader"><span class="foologo"><i class="fa fa-cogs"></i> Foo Network</span> <a href="#shows">Shows</a> || <a href="#blogs">Blogs</a> || <a href="https://plus.google.com/+FooNetwork/">Newsfeed</a></div>
+<div class="navigationheader tagline"><i class="fa fa-cogs noseeum"></i> Shows.Where(v => v.IsAwesome && v.IsNerdy)</div>
+<div id="splashwow" class="pageblock"></div>
+<div class="pageblock">
+<a name="shows" class="sectionHeader">Foo Network Shows</a>
+<ul>
+<li>
+Geeks Research and Explain
+<ul>
+<li>
+<a href="http://youtu.be/73-CqZEF7Ak">Episode 1: Mads Kristensen, Visual Studio 2015</a>
+</li>
+</ul>
+</li>
+<li>
+Retro Notes
+<ul>
+<li>
+<a href="#" onclick="toastr.info('Sorry for the Production Delay.  Coming April 26 to the Foo Network', 'Coming Soon'); return false;">Episode 1: 2015 Nebraska.Code()</a> -- Coming April 26, 2015
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="pageblock">
+<a name="blogs" class="sectionHeader">Blogs</a>
+<ul>
+<li><a href="http://coding.grax.com/">David Walker / Grax - Geeks Research and Explain</a></li>
+<li><a href="http://osmyn.com/">Rusty Divine / Osmyn - Live, Love, Learn, Teach</a></li>
+<li><a href="http://blog.costrcode.com/">Adam Costenbader - CostrCode</a></li>
+</ul>
+</div>
+<br/>
+</div>
+</body>
+</html>
